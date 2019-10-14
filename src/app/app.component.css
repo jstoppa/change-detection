@@ -1,0 +1,32 @@
+.box {
+  border: 1px solid #000;
+  
+  line-height: 100px;
+  height: 100px;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  width: 500px;
+  grid-template:  "top-left top-center top-right" 
+                  "middle-left middle-center middle-right" 
+                  "bottom-left bottom-center bottom-right";
+  grid-gap: 20px
+}
+
+.update-area {
+  display: grid;
+  margin-top: 20px;
+  width: 500px;
+  grid-template: "text-area top-right"
+                 "text-area middle-right"
+                 "text-area bottom-right";
+  grid-gap: 20px
+}
+
+.text-area {
+  height: 100px;
+}
+
+
